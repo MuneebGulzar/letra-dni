@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/etra-dni/static/js/main.0079af03.js",
+    "main.js": "/etra-dni/static/js/main.61f3bb54.js",
     "index.html": "/etra-dni/index.html",
-    "main.0079af03.js.map": "/etra-dni/static/js/main.0079af03.js.map"
+    "main.61f3bb54.js.map": "/etra-dni/static/js/main.61f3bb54.js.map"
   },
   "entrypoints": [
-    "static/js/main.0079af03.js"
+    "static/js/main.61f3bb54.js"
   ]
 }
