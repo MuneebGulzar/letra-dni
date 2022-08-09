@@ -28,8 +28,8 @@ function App() {
       if (i == resto) {
         letra = arrLetras[i];
       }
-    } if (numDNI != '') {
-      if (resto != 0) {
+    } if (numDNI !== '') {
+      if (resto !== 0) {
         Swal.fire(
           'Tu nº de DNI es: ' + numDNI + letra
         );
