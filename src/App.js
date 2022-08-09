@@ -25,7 +25,7 @@ function App() {
     e.preventDefault();
 
     for (let i = 0; i < arrLetras.length; i++) {
-      if (i == resto) {
+      if (i === resto) {
         letra = arrLetras[i];
       }
     } if (numDNI !== '') {
