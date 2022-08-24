@@ -25,7 +25,7 @@ export const StyledInput = styled.input`
 `;
 
 export const StyledButton = styled.button`
-    width: 35%;
+    width: 45%;
     background-color: #45B39D;
     color: #ffffff;
     margin-top: 10%;
@@ -33,4 +33,6 @@ export const StyledButton = styled.button`
     border-radius: 50px;
     font-size: 24px;
     font-weight: 900;
+
+
 `;
