@@ -36,3 +36,18 @@ export const StyledButton = styled.button`
 
 
 `;
+export const Footer = styled.footer`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+`;
+export const Link = styled.a`
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+
+    @media (max-width: 468px) {
+     font-size: 16px;
+    }
+`;

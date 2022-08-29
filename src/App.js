@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { GlobalStyle } from "./StyledComponents/GlobalStyles";
-import { StyledButton, StyledForm, StyledInput } from "./StyledComponents/StyledForm";
+import { StyledButton, StyledForm, StyledInput, Footer, Link } from "./StyledComponents/StyledForm";
 import Swal from 'sweetalert2'
 
 function App() {
@@ -58,6 +58,9 @@ function App() {
         <StyledInput type="text" pattern="[0-9]{8}" placeholder="Nº DNI" id="numDNI" value={numDNI} onChange={handleOnChange} />
         <StyledButton type="submit">Calcular</StyledButton>
       </StyledForm>
+      <Footer>
+        <Link href="https://github.com/MuneebGulzar" target="_blank"><FaGithub /> Muneeb Gulzar</Link>
+      </Footer>
     </>
   );
 }
