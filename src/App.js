@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { GlobalStyle } from "./StyledComponents/GlobalStyles";
 import { StyledButton, StyledForm, StyledInput, Footer, Link } from "./StyledComponents/StyledForm";
 import Swal from 'sweetalert2'
+import {FaGithub} from 'react-icons/fa'
 
 function App() {
 

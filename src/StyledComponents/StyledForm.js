@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledForm = styled.form`
     width: 50vw;
     height: 50vh;
-    margin-block: 25vh;
+    margin-block: 22vh;
     margin-inline: auto;
     display: flex;
     flex-direction: column;
@@ -40,10 +40,10 @@ export const Footer = styled.footer`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2%;
+    bottom: 2%;
 `;
 export const Link = styled.a`
-    color: #ffffff;
+    color: gray;
     text-decoration: none;
     font-size: 20px;
 
