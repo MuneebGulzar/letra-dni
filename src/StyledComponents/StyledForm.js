@@ -22,6 +22,10 @@ export const StyledInput = styled.input`
     font-size: 18px;
     text-align: center;
 
+    @media (max-width: 468px) {
+        font-size: 16px;
+    }
+
 `;
 
 export const StyledButton = styled.button`
@@ -34,6 +38,9 @@ export const StyledButton = styled.button`
     font-size: 24px;
     font-weight: 900;
 
+    @media (max-width: 468px) {
+        font-size: 16px;
+    }
 
 `;
 export const Footer = styled.footer`
